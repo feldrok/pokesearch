@@ -61,7 +61,7 @@ function Pokemon() {
     }, [type])
 
     return (
-        <div className="flex flex-col h-full min-h-screen bg-slate-800">
+        <div className="flex flex-col h-full min-h-screen bg-slate-800 justify-between">
             <Nav />
             <div className="flex flex-col items-center justify-center pt-4">
                 <h1 className="font-mono text-white font-bold">Filters</h1>

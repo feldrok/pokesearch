@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 
+import Footer from "../layout/Footer"
 import Nav from "../layout/Nav"
 import PokemonCard from "./PokemonCard"
 import TypeFilter from "./TypeFilter"
@@ -118,6 +119,7 @@ function Pokemon() {
                     </div>
                 </div>
             )}
+            <Footer />
         </div>
     )
 }

@@ -11,7 +11,7 @@ export default function PokemonCard({ pokemon }: any) {
                     {pokemon?.name}
                 </h2>
                 <img
-                    className="h-40 w-40"
+                    className="h-40 w-40 hover:scale-125 duration-150"
                     src={pokemon?.sprites?.front_default ?? ""}
                     alt={pokemon?.name}
                 />

@@ -53,6 +53,7 @@ function Pokemon() {
                 if (filteredTypes.length > 0) {
                     return pokemon
                 }
+                return null
             })
             setPokemons(filteredPokemons)
         }

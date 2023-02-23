@@ -22,6 +22,7 @@ export default function TypeFilter({ setType }: any) {
                 <div className="flex gap-2 flex-wrap justify-center items-center">
                     {data?.results.map((type: any) => (
                         <label
+                            key={type.name}
                             className={`bg-[${
                                 colors.find((color) => color.type === type.name)
                                     ?.color

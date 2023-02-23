@@ -26,7 +26,7 @@ function Pokemon() {
     } = useQuery(
         ["getPokemon"],
         async () => {
-            const { data } = await client.get(`/pokemon?limit=151`)
+            const { data } = await client.get(`/pokemon?limit=500`)
             return data
         },
         {

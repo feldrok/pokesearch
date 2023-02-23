@@ -40,7 +40,10 @@ export default function Footer() {
                     <ul className="flex items-center gap-2">
                         <li>
                             <Link
-                                to={"/"}
+                                to={
+                                    "https://www.linkedin.com/in/matiasmoravalero/"
+                                }
+                                target="_blank"
                                 className="text-white font-mono text-xs hover:underline"
                             >
                                 <svg

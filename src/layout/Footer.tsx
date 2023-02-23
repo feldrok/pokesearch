@@ -7,7 +7,14 @@ export default function Footer() {
             <div className="flex flex-col justify-center items-center">
                 <div>
                     <p className="text-white font-mono text-xs">
-                        Made with ❤️ by feldrok
+                        Made with ❤️ by{" "}
+                        <Link
+                            to={"https://github.com/feldrok/"}
+                            className="text-white font-mono text-xs hover:underline"
+                            target={"_blank"}
+                        >
+                            feldrok
+                        </Link>
                     </p>
                 </div>
                 <div className="w-full flex justify-between items-center">

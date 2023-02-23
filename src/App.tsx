@@ -1,3 +1,4 @@
+import Footer from "./layout/Footer"
 import Nav from "./layout/Nav"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
                     Semibot PokeSearch
                 </h1>
             </div>
+            <Footer />
         </div>
     )
 }
